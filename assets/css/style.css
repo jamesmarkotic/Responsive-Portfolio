@@ -132,8 +132,9 @@
 .sidebar {
 	background-color: white;
 	width: 270px;
-	position: absolute;
+	
 	float: right;
+
 	padding: 20px;
 	border: 1px solid #cccccc;	
 }
@@ -144,13 +145,13 @@
 }
 
 .main-section {
-	position: absolute;
 	max-width: 650px;
 	background-color: white;
 	padding: 15px;
 	border: 1px solid #cccccc;
 	margin: 0 0 40px;
-	
+	float: left;
+	display: inline-block;
 }
 
 
