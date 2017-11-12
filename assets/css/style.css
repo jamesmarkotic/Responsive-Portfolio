@@ -267,10 +267,18 @@ body, html {
 
 @media (max-width: 980px) {
 	.nav {
-		margin: 100px auto 20px auto;
-		position: absolute;
+		clear: both;
 		background-color: white;
 		width: 650px;
+		float: none;
+		display: flex;
+		margin: 10px auto;
+		
+	}
+
+	.nav-group {
+		margin: 0 auto;
+		line-height: 80px;
 	}
 
 	.jdm {
@@ -293,7 +301,7 @@ body, html {
 	.main-section {
 		display: block;
 		float: none;
-		margin: 10px auto;
+		margin: 105px auto 0 auto;
 		height: auto;
 		overflow: auto;
 		clear: both;
